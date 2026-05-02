@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.tmp
+*.parquet.tmp
+.venv/
+venv/
+.env
+.idea/
+.vscode/

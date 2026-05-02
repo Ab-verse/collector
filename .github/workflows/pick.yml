@@ -1,0 +1,48 @@
+name: pick-strikes
+
+# Runs once a day at 03:30 UTC (~ 9:00 IST) to lock in today's strike list
+# for BTC and ETH on both the front weekly and front monthly expiry.
+on:
+  schedule:
+    - cron: "30 3 * * *"
+  workflow_dispatch:    # allow manual trigger from the Actions tab
+
+permissions:
+  contents: write       # needed to commit results back to the repo
+
+concurrency:
+  group: oi-data-write
+  cancel-in-progress: false
+
+jobs:
+  pick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Pick today's strike list
+        run: python pick_strikes.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/strikes/
+          if git diff --staged --quiet; then
+            echo "No changes."
+          else
+            git commit -m "strikes: $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+            # Pull-rebase guards against the collector having pushed seconds before us
+            git pull --rebase origin ${{ github.ref_name }} || true
+            git push
+          fi
