@@ -1,19 +1,14 @@
 name: collect-oi
 
-# Runs every 5 minutes and writes one row per (coin, expiry-kind) parquet.
-# GitHub Actions cron has 5-15min jitter under load — we tolerate that and
-# just log prev_gap_minutes per row.
+# Triggered externally every 5 minutes by cron-job.org via the
+# workflow-dispatch API. GitHub-native schedule is intentionally NOT used
+# here — its free-tier cron drops events under load (we observed only
+# ~1 fire per hour), so all scheduling lives outside GitHub.
 on:
-  schedule:
-    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
-
-concurrency:
-  group: oi-data-write
-  cancel-in-progress: false
 
 jobs:
   collect:
