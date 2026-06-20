@@ -1,0 +1,365 @@
+{
+  "currency": "BTC",
+  "picked_at_utc": "2026-06-20T07:12:18+00:00",
+  "spot_index": 63580.09,
+  "weekly": {
+    "expiry": "3JUL26",
+    "expiry_ts_ms": 1783065600000,
+    "atm_strike": 64000,
+    "strike_spacing": 1000,
+    "n_strikes_each_side": 9,
+    "strikes": [
+      52000,
+      55000,
+      56000,
+      58000,
+      59000,
+      60000,
+      61000,
+      62000,
+      63000,
+      64000,
+      65000,
+      66000,
+      67000,
+      68000,
+      69000,
+      70000,
+      72000,
+      73000,
+      75000
+    ],
+    "note": "weekly chain: 9 strikes each side",
+    "instruments": [
+      {
+        "strike": 52000,
+        "offset": -9,
+        "C": "BTC-3JUL26-52000-C",
+        "P": "BTC-3JUL26-52000-P"
+      },
+      {
+        "strike": 55000,
+        "offset": -8,
+        "C": "BTC-3JUL26-55000-C",
+        "P": "BTC-3JUL26-55000-P"
+      },
+      {
+        "strike": 56000,
+        "offset": -7,
+        "C": "BTC-3JUL26-56000-C",
+        "P": "BTC-3JUL26-56000-P"
+      },
+      {
+        "strike": 58000,
+        "offset": -6,
+        "C": "BTC-3JUL26-58000-C",
+        "P": "BTC-3JUL26-58000-P"
+      },
+      {
+        "strike": 59000,
+        "offset": -5,
+        "C": "BTC-3JUL26-59000-C",
+        "P": "BTC-3JUL26-59000-P"
+      },
+      {
+        "strike": 60000,
+        "offset": -4,
+        "C": "BTC-3JUL26-60000-C",
+        "P": "BTC-3JUL26-60000-P"
+      },
+      {
+        "strike": 61000,
+        "offset": -3,
+        "C": "BTC-3JUL26-61000-C",
+        "P": "BTC-3JUL26-61000-P"
+      },
+      {
+        "strike": 62000,
+        "offset": -2,
+        "C": "BTC-3JUL26-62000-C",
+        "P": "BTC-3JUL26-62000-P"
+      },
+      {
+        "strike": 63000,
+        "offset": -1,
+        "C": "BTC-3JUL26-63000-C",
+        "P": "BTC-3JUL26-63000-P"
+      },
+      {
+        "strike": 64000,
+        "offset": 0,
+        "C": "BTC-3JUL26-64000-C",
+        "P": "BTC-3JUL26-64000-P"
+      },
+      {
+        "strike": 65000,
+        "offset": 1,
+        "C": "BTC-3JUL26-65000-C",
+        "P": "BTC-3JUL26-65000-P"
+      },
+      {
+        "strike": 66000,
+        "offset": 2,
+        "C": "BTC-3JUL26-66000-C",
+        "P": "BTC-3JUL26-66000-P"
+      },
+      {
+        "strike": 67000,
+        "offset": 3,
+        "C": "BTC-3JUL26-67000-C",
+        "P": "BTC-3JUL26-67000-P"
+      },
+      {
+        "strike": 68000,
+        "offset": 4,
+        "C": "BTC-3JUL26-68000-C",
+        "P": "BTC-3JUL26-68000-P"
+      },
+      {
+        "strike": 69000,
+        "offset": 5,
+        "C": "BTC-3JUL26-69000-C",
+        "P": "BTC-3JUL26-69000-P"
+      },
+      {
+        "strike": 70000,
+        "offset": 6,
+        "C": "BTC-3JUL26-70000-C",
+        "P": "BTC-3JUL26-70000-P"
+      },
+      {
+        "strike": 72000,
+        "offset": 7,
+        "C": "BTC-3JUL26-72000-C",
+        "P": "BTC-3JUL26-72000-P"
+      },
+      {
+        "strike": 73000,
+        "offset": 8,
+        "C": "BTC-3JUL26-73000-C",
+        "P": "BTC-3JUL26-73000-P"
+      },
+      {
+        "strike": 75000,
+        "offset": 9,
+        "C": "BTC-3JUL26-75000-C",
+        "P": "BTC-3JUL26-75000-P"
+      }
+    ]
+  },
+  "monthly": {
+    "expiry": "26JUN26",
+    "expiry_ts_ms": 1782460800000,
+    "atm_strike": 64000,
+    "strike_spacing": 1000,
+    "n_strikes_each_side": 14,
+    "strikes": [
+      20000,
+      30000,
+      40000,
+      45000,
+      50000,
+      52000,
+      55000,
+      57000,
+      58000,
+      59000,
+      60000,
+      61000,
+      62000,
+      63000,
+      64000,
+      65000,
+      66000,
+      67000,
+      68000,
+      69000,
+      70000,
+      71000,
+      72000,
+      74000,
+      75000,
+      76000,
+      78000,
+      80000,
+      82000
+    ],
+    "note": "WARN: monthly chain only has 14 strikes per side around ATM (wanted 20)",
+    "instruments": [
+      {
+        "strike": 20000,
+        "offset": -14,
+        "C": "BTC-26JUN26-20000-C",
+        "P": "BTC-26JUN26-20000-P"
+      },
+      {
+        "strike": 30000,
+        "offset": -13,
+        "C": "BTC-26JUN26-30000-C",
+        "P": "BTC-26JUN26-30000-P"
+      },
+      {
+        "strike": 40000,
+        "offset": -12,
+        "C": "BTC-26JUN26-40000-C",
+        "P": "BTC-26JUN26-40000-P"
+      },
+      {
+        "strike": 45000,
+        "offset": -11,
+        "C": "BTC-26JUN26-45000-C",
+        "P": "BTC-26JUN26-45000-P"
+      },
+      {
+        "strike": 50000,
+        "offset": -10,
+        "C": "BTC-26JUN26-50000-C",
+        "P": "BTC-26JUN26-50000-P"
+      },
+      {
+        "strike": 52000,
+        "offset": -9,
+        "C": "BTC-26JUN26-52000-C",
+        "P": "BTC-26JUN26-52000-P"
+      },
+      {
+        "strike": 55000,
+        "offset": -8,
+        "C": "BTC-26JUN26-55000-C",
+        "P": "BTC-26JUN26-55000-P"
+      },
+      {
+        "strike": 57000,
+        "offset": -7,
+        "C": "BTC-26JUN26-57000-C",
+        "P": "BTC-26JUN26-57000-P"
+      },
+      {
+        "strike": 58000,
+        "offset": -6,
+        "C": "BTC-26JUN26-58000-C",
+        "P": "BTC-26JUN26-58000-P"
+      },
+      {
+        "strike": 59000,
+        "offset": -5,
+        "C": "BTC-26JUN26-59000-C",
+        "P": "BTC-26JUN26-59000-P"
+      },
+      {
+        "strike": 60000,
+        "offset": -4,
+        "C": "BTC-26JUN26-60000-C",
+        "P": "BTC-26JUN26-60000-P"
+      },
+      {
+        "strike": 61000,
+        "offset": -3,
+        "C": "BTC-26JUN26-61000-C",
+        "P": "BTC-26JUN26-61000-P"
+      },
+      {
+        "strike": 62000,
+        "offset": -2,
+        "C": "BTC-26JUN26-62000-C",
+        "P": "BTC-26JUN26-62000-P"
+      },
+      {
+        "strike": 63000,
+        "offset": -1,
+        "C": "BTC-26JUN26-63000-C",
+        "P": "BTC-26JUN26-63000-P"
+      },
+      {
+        "strike": 64000,
+        "offset": 0,
+        "C": "BTC-26JUN26-64000-C",
+        "P": "BTC-26JUN26-64000-P"
+      },
+      {
+        "strike": 65000,
+        "offset": 1,
+        "C": "BTC-26JUN26-65000-C",
+        "P": "BTC-26JUN26-65000-P"
+      },
+      {
+        "strike": 66000,
+        "offset": 2,
+        "C": "BTC-26JUN26-66000-C",
+        "P": "BTC-26JUN26-66000-P"
+      },
+      {
+        "strike": 67000,
+        "offset": 3,
+        "C": "BTC-26JUN26-67000-C",
+        "P": "BTC-26JUN26-67000-P"
+      },
+      {
+        "strike": 68000,
+        "offset": 4,
+        "C": "BTC-26JUN26-68000-C",
+        "P": "BTC-26JUN26-68000-P"
+      },
+      {
+        "strike": 69000,
+        "offset": 5,
+        "C": "BTC-26JUN26-69000-C",
+        "P": "BTC-26JUN26-69000-P"
+      },
+      {
+        "strike": 70000,
+        "offset": 6,
+        "C": "BTC-26JUN26-70000-C",
+        "P": "BTC-26JUN26-70000-P"
+      },
+      {
+        "strike": 71000,
+        "offset": 7,
+        "C": "BTC-26JUN26-71000-C",
+        "P": "BTC-26JUN26-71000-P"
+      },
+      {
+        "strike": 72000,
+        "offset": 8,
+        "C": "BTC-26JUN26-72000-C",
+        "P": "BTC-26JUN26-72000-P"
+      },
+      {
+        "strike": 74000,
+        "offset": 9,
+        "C": "BTC-26JUN26-74000-C",
+        "P": "BTC-26JUN26-74000-P"
+      },
+      {
+        "strike": 75000,
+        "offset": 10,
+        "C": "BTC-26JUN26-75000-C",
+        "P": "BTC-26JUN26-75000-P"
+      },
+      {
+        "strike": 76000,
+        "offset": 11,
+        "C": "BTC-26JUN26-76000-C",
+        "P": "BTC-26JUN26-76000-P"
+      },
+      {
+        "strike": 78000,
+        "offset": 12,
+        "C": "BTC-26JUN26-78000-C",
+        "P": "BTC-26JUN26-78000-P"
+      },
+      {
+        "strike": 80000,
+        "offset": 13,
+        "C": "BTC-26JUN26-80000-C",
+        "P": "BTC-26JUN26-80000-P"
+      },
+      {
+        "strike": 82000,
+        "offset": 14,
+        "C": "BTC-26JUN26-82000-C",
+        "P": "BTC-26JUN26-82000-P"
+      }
+    ]
+  }
+}
