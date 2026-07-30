@@ -1,0 +1,379 @@
+{
+  "currency": "ETH",
+  "picked_at_utc": "2026-07-30T06:06:57+00:00",
+  "spot_index": 1903.28,
+  "weekly": {
+    "expiry": "7AUG26",
+    "expiry_ts_ms": 1786089600000,
+    "atm_strike": 1900,
+    "strike_spacing": 50,
+    "n_strikes_each_side": 6,
+    "strikes": [
+      1400,
+      1600,
+      1700,
+      1750,
+      1800,
+      1850,
+      1900,
+      1950,
+      2000,
+      2050,
+      2100,
+      2200,
+      2400
+    ],
+    "note": "weekly chain: 6 strikes each side",
+    "instruments": [
+      {
+        "strike": 1400,
+        "offset": -6,
+        "C": "ETH-7AUG26-1400-C",
+        "P": "ETH-7AUG26-1400-P"
+      },
+      {
+        "strike": 1600,
+        "offset": -5,
+        "C": "ETH-7AUG26-1600-C",
+        "P": "ETH-7AUG26-1600-P"
+      },
+      {
+        "strike": 1700,
+        "offset": -4,
+        "C": "ETH-7AUG26-1700-C",
+        "P": "ETH-7AUG26-1700-P"
+      },
+      {
+        "strike": 1750,
+        "offset": -3,
+        "C": "ETH-7AUG26-1750-C",
+        "P": "ETH-7AUG26-1750-P"
+      },
+      {
+        "strike": 1800,
+        "offset": -2,
+        "C": "ETH-7AUG26-1800-C",
+        "P": "ETH-7AUG26-1800-P"
+      },
+      {
+        "strike": 1850,
+        "offset": -1,
+        "C": "ETH-7AUG26-1850-C",
+        "P": "ETH-7AUG26-1850-P"
+      },
+      {
+        "strike": 1900,
+        "offset": 0,
+        "C": "ETH-7AUG26-1900-C",
+        "P": "ETH-7AUG26-1900-P"
+      },
+      {
+        "strike": 1950,
+        "offset": 1,
+        "C": "ETH-7AUG26-1950-C",
+        "P": "ETH-7AUG26-1950-P"
+      },
+      {
+        "strike": 2000,
+        "offset": 2,
+        "C": "ETH-7AUG26-2000-C",
+        "P": "ETH-7AUG26-2000-P"
+      },
+      {
+        "strike": 2050,
+        "offset": 3,
+        "C": "ETH-7AUG26-2050-C",
+        "P": "ETH-7AUG26-2050-P"
+      },
+      {
+        "strike": 2100,
+        "offset": 4,
+        "C": "ETH-7AUG26-2100-C",
+        "P": "ETH-7AUG26-2100-P"
+      },
+      {
+        "strike": 2200,
+        "offset": 5,
+        "C": "ETH-7AUG26-2200-C",
+        "P": "ETH-7AUG26-2200-P"
+      },
+      {
+        "strike": 2400,
+        "offset": 6,
+        "C": "ETH-7AUG26-2400-C",
+        "P": "ETH-7AUG26-2400-P"
+      }
+    ]
+  },
+  "monthly": {
+    "expiry": "31JUL26",
+    "expiry_ts_ms": 1785484800000,
+    "atm_strike": 1900,
+    "strike_spacing": 50,
+    "n_strikes_each_side": 18,
+    "strikes": [
+      1000,
+      1200,
+      1300,
+      1400,
+      1450,
+      1500,
+      1550,
+      1600,
+      1650,
+      1700,
+      1750,
+      1800,
+      1825,
+      1840,
+      1850,
+      1860,
+      1875,
+      1880,
+      1900,
+      1920,
+      1925,
+      1940,
+      1950,
+      1960,
+      1975,
+      1980,
+      2000,
+      2025,
+      2050,
+      2100,
+      2150,
+      2200,
+      2250,
+      2300,
+      2350,
+      2400,
+      2450
+    ],
+    "note": "WARN: monthly chain only has 18 strikes per side around ATM (wanted 20)",
+    "instruments": [
+      {
+        "strike": 1000,
+        "offset": -18,
+        "C": "ETH-31JUL26-1000-C",
+        "P": "ETH-31JUL26-1000-P"
+      },
+      {
+        "strike": 1200,
+        "offset": -17,
+        "C": "ETH-31JUL26-1200-C",
+        "P": "ETH-31JUL26-1200-P"
+      },
+      {
+        "strike": 1300,
+        "offset": -16,
+        "C": "ETH-31JUL26-1300-C",
+        "P": "ETH-31JUL26-1300-P"
+      },
+      {
+        "strike": 1400,
+        "offset": -15,
+        "C": "ETH-31JUL26-1400-C",
+        "P": "ETH-31JUL26-1400-P"
+      },
+      {
+        "strike": 1450,
+        "offset": -14,
+        "C": "ETH-31JUL26-1450-C",
+        "P": "ETH-31JUL26-1450-P"
+      },
+      {
+        "strike": 1500,
+        "offset": -13,
+        "C": "ETH-31JUL26-1500-C",
+        "P": "ETH-31JUL26-1500-P"
+      },
+      {
+        "strike": 1550,
+        "offset": -12,
+        "C": "ETH-31JUL26-1550-C",
+        "P": "ETH-31JUL26-1550-P"
+      },
+      {
+        "strike": 1600,
+        "offset": -11,
+        "C": "ETH-31JUL26-1600-C",
+        "P": "ETH-31JUL26-1600-P"
+      },
+      {
+        "strike": 1650,
+        "offset": -10,
+        "C": "ETH-31JUL26-1650-C",
+        "P": "ETH-31JUL26-1650-P"
+      },
+      {
+        "strike": 1700,
+        "offset": -9,
+        "C": "ETH-31JUL26-1700-C",
+        "P": "ETH-31JUL26-1700-P"
+      },
+      {
+        "strike": 1750,
+        "offset": -8,
+        "C": "ETH-31JUL26-1750-C",
+        "P": "ETH-31JUL26-1750-P"
+      },
+      {
+        "strike": 1800,
+        "offset": -7,
+        "C": "ETH-31JUL26-1800-C",
+        "P": "ETH-31JUL26-1800-P"
+      },
+      {
+        "strike": 1825,
+        "offset": -6,
+        "C": "ETH-31JUL26-1825-C",
+        "P": "ETH-31JUL26-1825-P"
+      },
+      {
+        "strike": 1840,
+        "offset": -5,
+        "C": "ETH-31JUL26-1840-C",
+        "P": "ETH-31JUL26-1840-P"
+      },
+      {
+        "strike": 1850,
+        "offset": -4,
+        "C": "ETH-31JUL26-1850-C",
+        "P": "ETH-31JUL26-1850-P"
+      },
+      {
+        "strike": 1860,
+        "offset": -3,
+        "C": "ETH-31JUL26-1860-C",
+        "P": "ETH-31JUL26-1860-P"
+      },
+      {
+        "strike": 1875,
+        "offset": -2,
+        "C": "ETH-31JUL26-1875-C",
+        "P": "ETH-31JUL26-1875-P"
+      },
+      {
+        "strike": 1880,
+        "offset": -1,
+        "C": "ETH-31JUL26-1880-C",
+        "P": "ETH-31JUL26-1880-P"
+      },
+      {
+        "strike": 1900,
+        "offset": 0,
+        "C": "ETH-31JUL26-1900-C",
+        "P": "ETH-31JUL26-1900-P"
+      },
+      {
+        "strike": 1920,
+        "offset": 1,
+        "C": "ETH-31JUL26-1920-C",
+        "P": "ETH-31JUL26-1920-P"
+      },
+      {
+        "strike": 1925,
+        "offset": 2,
+        "C": "ETH-31JUL26-1925-C",
+        "P": "ETH-31JUL26-1925-P"
+      },
+      {
+        "strike": 1940,
+        "offset": 3,
+        "C": "ETH-31JUL26-1940-C",
+        "P": "ETH-31JUL26-1940-P"
+      },
+      {
+        "strike": 1950,
+        "offset": 4,
+        "C": "ETH-31JUL26-1950-C",
+        "P": "ETH-31JUL26-1950-P"
+      },
+      {
+        "strike": 1960,
+        "offset": 5,
+        "C": "ETH-31JUL26-1960-C",
+        "P": "ETH-31JUL26-1960-P"
+      },
+      {
+        "strike": 1975,
+        "offset": 6,
+        "C": "ETH-31JUL26-1975-C",
+        "P": "ETH-31JUL26-1975-P"
+      },
+      {
+        "strike": 1980,
+        "offset": 7,
+        "C": "ETH-31JUL26-1980-C",
+        "P": "ETH-31JUL26-1980-P"
+      },
+      {
+        "strike": 2000,
+        "offset": 8,
+        "C": "ETH-31JUL26-2000-C",
+        "P": "ETH-31JUL26-2000-P"
+      },
+      {
+        "strike": 2025,
+        "offset": 9,
+        "C": "ETH-31JUL26-2025-C",
+        "P": "ETH-31JUL26-2025-P"
+      },
+      {
+        "strike": 2050,
+        "offset": 10,
+        "C": "ETH-31JUL26-2050-C",
+        "P": "ETH-31JUL26-2050-P"
+      },
+      {
+        "strike": 2100,
+        "offset": 11,
+        "C": "ETH-31JUL26-2100-C",
+        "P": "ETH-31JUL26-2100-P"
+      },
+      {
+        "strike": 2150,
+        "offset": 12,
+        "C": "ETH-31JUL26-2150-C",
+        "P": "ETH-31JUL26-2150-P"
+      },
+      {
+        "strike": 2200,
+        "offset": 13,
+        "C": "ETH-31JUL26-2200-C",
+        "P": "ETH-31JUL26-2200-P"
+      },
+      {
+        "strike": 2250,
+        "offset": 14,
+        "C": "ETH-31JUL26-2250-C",
+        "P": "ETH-31JUL26-2250-P"
+      },
+      {
+        "strike": 2300,
+        "offset": 15,
+        "C": "ETH-31JUL26-2300-C",
+        "P": "ETH-31JUL26-2300-P"
+      },
+      {
+        "strike": 2350,
+        "offset": 16,
+        "C": "ETH-31JUL26-2350-C",
+        "P": "ETH-31JUL26-2350-P"
+      },
+      {
+        "strike": 2400,
+        "offset": 17,
+        "C": "ETH-31JUL26-2400-C",
+        "P": "ETH-31JUL26-2400-P"
+      },
+      {
+        "strike": 2450,
+        "offset": 18,
+        "C": "ETH-31JUL26-2450-C",
+        "P": "ETH-31JUL26-2450-P"
+      }
+    ]
+  }
+}
