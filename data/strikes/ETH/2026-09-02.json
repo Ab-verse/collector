@@ -1,0 +1,519 @@
+{
+  "currency": "ETH",
+  "picked_at_utc": "2026-09-02T08:03:56+00:00",
+  "spot_index": 2416.38,
+  "weekly": {
+    "expiry": "4SEP26",
+    "expiry_ts_ms": 1788508800000,
+    "atm_strike": 2420,
+    "strike_spacing": 50,
+    "n_strikes_each_side": 14,
+    "strikes": [
+      1900,
+      1950,
+      2000,
+      2050,
+      2080,
+      2100,
+      2150,
+      2200,
+      2250,
+      2300,
+      2350,
+      2360,
+      2380,
+      2400,
+      2420,
+      2440,
+      2450,
+      2460,
+      2480,
+      2500,
+      2520,
+      2540,
+      2550,
+      2600,
+      2650,
+      2700,
+      2800,
+      2900,
+      3000
+    ],
+    "note": "weekly chain: 14 strikes each side",
+    "instruments": [
+      {
+        "strike": 1900,
+        "offset": -14,
+        "C": "ETH-4SEP26-1900-C",
+        "P": "ETH-4SEP26-1900-P"
+      },
+      {
+        "strike": 1950,
+        "offset": -13,
+        "C": "ETH-4SEP26-1950-C",
+        "P": "ETH-4SEP26-1950-P"
+      },
+      {
+        "strike": 2000,
+        "offset": -12,
+        "C": "ETH-4SEP26-2000-C",
+        "P": "ETH-4SEP26-2000-P"
+      },
+      {
+        "strike": 2050,
+        "offset": -11,
+        "C": "ETH-4SEP26-2050-C",
+        "P": "ETH-4SEP26-2050-P"
+      },
+      {
+        "strike": 2080,
+        "offset": -10,
+        "C": "ETH-4SEP26-2080-C",
+        "P": "ETH-4SEP26-2080-P"
+      },
+      {
+        "strike": 2100,
+        "offset": -9,
+        "C": "ETH-4SEP26-2100-C",
+        "P": "ETH-4SEP26-2100-P"
+      },
+      {
+        "strike": 2150,
+        "offset": -8,
+        "C": "ETH-4SEP26-2150-C",
+        "P": "ETH-4SEP26-2150-P"
+      },
+      {
+        "strike": 2200,
+        "offset": -7,
+        "C": "ETH-4SEP26-2200-C",
+        "P": "ETH-4SEP26-2200-P"
+      },
+      {
+        "strike": 2250,
+        "offset": -6,
+        "C": "ETH-4SEP26-2250-C",
+        "P": "ETH-4SEP26-2250-P"
+      },
+      {
+        "strike": 2300,
+        "offset": -5,
+        "C": "ETH-4SEP26-2300-C",
+        "P": "ETH-4SEP26-2300-P"
+      },
+      {
+        "strike": 2350,
+        "offset": -4,
+        "C": "ETH-4SEP26-2350-C",
+        "P": "ETH-4SEP26-2350-P"
+      },
+      {
+        "strike": 2360,
+        "offset": -3,
+        "C": "ETH-4SEP26-2360-C",
+        "P": "ETH-4SEP26-2360-P"
+      },
+      {
+        "strike": 2380,
+        "offset": -2,
+        "C": "ETH-4SEP26-2380-C",
+        "P": "ETH-4SEP26-2380-P"
+      },
+      {
+        "strike": 2400,
+        "offset": -1,
+        "C": "ETH-4SEP26-2400-C",
+        "P": "ETH-4SEP26-2400-P"
+      },
+      {
+        "strike": 2420,
+        "offset": 0,
+        "C": "ETH-4SEP26-2420-C",
+        "P": "ETH-4SEP26-2420-P"
+      },
+      {
+        "strike": 2440,
+        "offset": 1,
+        "C": "ETH-4SEP26-2440-C",
+        "P": "ETH-4SEP26-2440-P"
+      },
+      {
+        "strike": 2450,
+        "offset": 2,
+        "C": "ETH-4SEP26-2450-C",
+        "P": "ETH-4SEP26-2450-P"
+      },
+      {
+        "strike": 2460,
+        "offset": 3,
+        "C": "ETH-4SEP26-2460-C",
+        "P": "ETH-4SEP26-2460-P"
+      },
+      {
+        "strike": 2480,
+        "offset": 4,
+        "C": "ETH-4SEP26-2480-C",
+        "P": "ETH-4SEP26-2480-P"
+      },
+      {
+        "strike": 2500,
+        "offset": 5,
+        "C": "ETH-4SEP26-2500-C",
+        "P": "ETH-4SEP26-2500-P"
+      },
+      {
+        "strike": 2520,
+        "offset": 6,
+        "C": "ETH-4SEP26-2520-C",
+        "P": "ETH-4SEP26-2520-P"
+      },
+      {
+        "strike": 2540,
+        "offset": 7,
+        "C": "ETH-4SEP26-2540-C",
+        "P": "ETH-4SEP26-2540-P"
+      },
+      {
+        "strike": 2550,
+        "offset": 8,
+        "C": "ETH-4SEP26-2550-C",
+        "P": "ETH-4SEP26-2550-P"
+      },
+      {
+        "strike": 2600,
+        "offset": 9,
+        "C": "ETH-4SEP26-2600-C",
+        "P": "ETH-4SEP26-2600-P"
+      },
+      {
+        "strike": 2650,
+        "offset": 10,
+        "C": "ETH-4SEP26-2650-C",
+        "P": "ETH-4SEP26-2650-P"
+      },
+      {
+        "strike": 2700,
+        "offset": 11,
+        "C": "ETH-4SEP26-2700-C",
+        "P": "ETH-4SEP26-2700-P"
+      },
+      {
+        "strike": 2800,
+        "offset": 12,
+        "C": "ETH-4SEP26-2800-C",
+        "P": "ETH-4SEP26-2800-P"
+      },
+      {
+        "strike": 2900,
+        "offset": 13,
+        "C": "ETH-4SEP26-2900-C",
+        "P": "ETH-4SEP26-2900-P"
+      },
+      {
+        "strike": 3000,
+        "offset": 14,
+        "C": "ETH-4SEP26-3000-C",
+        "P": "ETH-4SEP26-3000-P"
+      }
+    ]
+  },
+  "monthly": {
+    "expiry": "25SEP26",
+    "expiry_ts_ms": 1790323200000,
+    "atm_strike": 2420,
+    "strike_spacing": 100,
+    "n_strikes_each_side": 20,
+    "strikes": [
+      1200,
+      1300,
+      1400,
+      1500,
+      1600,
+      1700,
+      1800,
+      1850,
+      1900,
+      1950,
+      2000,
+      2050,
+      2100,
+      2150,
+      2200,
+      2250,
+      2300,
+      2360,
+      2380,
+      2400,
+      2420,
+      2440,
+      2500,
+      2600,
+      2700,
+      2800,
+      2900,
+      3000,
+      3100,
+      3200,
+      3300,
+      3400,
+      3500,
+      3600,
+      3800,
+      4000,
+      4200,
+      4400,
+      4500,
+      4600,
+      4800
+    ],
+    "note": "",
+    "instruments": [
+      {
+        "strike": 1200,
+        "offset": -20,
+        "C": "ETH-25SEP26-1200-C",
+        "P": "ETH-25SEP26-1200-P"
+      },
+      {
+        "strike": 1300,
+        "offset": -19,
+        "C": "ETH-25SEP26-1300-C",
+        "P": "ETH-25SEP26-1300-P"
+      },
+      {
+        "strike": 1400,
+        "offset": -18,
+        "C": "ETH-25SEP26-1400-C",
+        "P": "ETH-25SEP26-1400-P"
+      },
+      {
+        "strike": 1500,
+        "offset": -17,
+        "C": "ETH-25SEP26-1500-C",
+        "P": "ETH-25SEP26-1500-P"
+      },
+      {
+        "strike": 1600,
+        "offset": -16,
+        "C": "ETH-25SEP26-1600-C",
+        "P": "ETH-25SEP26-1600-P"
+      },
+      {
+        "strike": 1700,
+        "offset": -15,
+        "C": "ETH-25SEP26-1700-C",
+        "P": "ETH-25SEP26-1700-P"
+      },
+      {
+        "strike": 1800,
+        "offset": -14,
+        "C": "ETH-25SEP26-1800-C",
+        "P": "ETH-25SEP26-1800-P"
+      },
+      {
+        "strike": 1850,
+        "offset": -13,
+        "C": "ETH-25SEP26-1850-C",
+        "P": "ETH-25SEP26-1850-P"
+      },
+      {
+        "strike": 1900,
+        "offset": -12,
+        "C": "ETH-25SEP26-1900-C",
+        "P": "ETH-25SEP26-1900-P"
+      },
+      {
+        "strike": 1950,
+        "offset": -11,
+        "C": "ETH-25SEP26-1950-C",
+        "P": "ETH-25SEP26-1950-P"
+      },
+      {
+        "strike": 2000,
+        "offset": -10,
+        "C": "ETH-25SEP26-2000-C",
+        "P": "ETH-25SEP26-2000-P"
+      },
+      {
+        "strike": 2050,
+        "offset": -9,
+        "C": "ETH-25SEP26-2050-C",
+        "P": "ETH-25SEP26-2050-P"
+      },
+      {
+        "strike": 2100,
+        "offset": -8,
+        "C": "ETH-25SEP26-2100-C",
+        "P": "ETH-25SEP26-2100-P"
+      },
+      {
+        "strike": 2150,
+        "offset": -7,
+        "C": "ETH-25SEP26-2150-C",
+        "P": "ETH-25SEP26-2150-P"
+      },
+      {
+        "strike": 2200,
+        "offset": -6,
+        "C": "ETH-25SEP26-2200-C",
+        "P": "ETH-25SEP26-2200-P"
+      },
+      {
+        "strike": 2250,
+        "offset": -5,
+        "C": "ETH-25SEP26-2250-C",
+        "P": "ETH-25SEP26-2250-P"
+      },
+      {
+        "strike": 2300,
+        "offset": -4,
+        "C": "ETH-25SEP26-2300-C",
+        "P": "ETH-25SEP26-2300-P"
+      },
+      {
+        "strike": 2360,
+        "offset": -3,
+        "C": "ETH-25SEP26-2360-C",
+        "P": "ETH-25SEP26-2360-P"
+      },
+      {
+        "strike": 2380,
+        "offset": -2,
+        "C": "ETH-25SEP26-2380-C",
+        "P": "ETH-25SEP26-2380-P"
+      },
+      {
+        "strike": 2400,
+        "offset": -1,
+        "C": "ETH-25SEP26-2400-C",
+        "P": "ETH-25SEP26-2400-P"
+      },
+      {
+        "strike": 2420,
+        "offset": 0,
+        "C": "ETH-25SEP26-2420-C",
+        "P": "ETH-25SEP26-2420-P"
+      },
+      {
+        "strike": 2440,
+        "offset": 1,
+        "C": "ETH-25SEP26-2440-C",
+        "P": "ETH-25SEP26-2440-P"
+      },
+      {
+        "strike": 2500,
+        "offset": 2,
+        "C": "ETH-25SEP26-2500-C",
+        "P": "ETH-25SEP26-2500-P"
+      },
+      {
+        "strike": 2600,
+        "offset": 3,
+        "C": "ETH-25SEP26-2600-C",
+        "P": "ETH-25SEP26-2600-P"
+      },
+      {
+        "strike": 2700,
+        "offset": 4,
+        "C": "ETH-25SEP26-2700-C",
+        "P": "ETH-25SEP26-2700-P"
+      },
+      {
+        "strike": 2800,
+        "offset": 5,
+        "C": "ETH-25SEP26-2800-C",
+        "P": "ETH-25SEP26-2800-P"
+      },
+      {
+        "strike": 2900,
+        "offset": 6,
+        "C": "ETH-25SEP26-2900-C",
+        "P": "ETH-25SEP26-2900-P"
+      },
+      {
+        "strike": 3000,
+        "offset": 7,
+        "C": "ETH-25SEP26-3000-C",
+        "P": "ETH-25SEP26-3000-P"
+      },
+      {
+        "strike": 3100,
+        "offset": 8,
+        "C": "ETH-25SEP26-3100-C",
+        "P": "ETH-25SEP26-3100-P"
+      },
+      {
+        "strike": 3200,
+        "offset": 9,
+        "C": "ETH-25SEP26-3200-C",
+        "P": "ETH-25SEP26-3200-P"
+      },
+      {
+        "strike": 3300,
+        "offset": 10,
+        "C": "ETH-25SEP26-3300-C",
+        "P": "ETH-25SEP26-3300-P"
+      },
+      {
+        "strike": 3400,
+        "offset": 11,
+        "C": "ETH-25SEP26-3400-C",
+        "P": "ETH-25SEP26-3400-P"
+      },
+      {
+        "strike": 3500,
+        "offset": 12,
+        "C": "ETH-25SEP26-3500-C",
+        "P": "ETH-25SEP26-3500-P"
+      },
+      {
+        "strike": 3600,
+        "offset": 13,
+        "C": "ETH-25SEP26-3600-C",
+        "P": "ETH-25SEP26-3600-P"
+      },
+      {
+        "strike": 3800,
+        "offset": 14,
+        "C": "ETH-25SEP26-3800-C",
+        "P": "ETH-25SEP26-3800-P"
+      },
+      {
+        "strike": 4000,
+        "offset": 15,
+        "C": "ETH-25SEP26-4000-C",
+        "P": "ETH-25SEP26-4000-P"
+      },
+      {
+        "strike": 4200,
+        "offset": 16,
+        "C": "ETH-25SEP26-4200-C",
+        "P": "ETH-25SEP26-4200-P"
+      },
+      {
+        "strike": 4400,
+        "offset": 17,
+        "C": "ETH-25SEP26-4400-C",
+        "P": "ETH-25SEP26-4400-P"
+      },
+      {
+        "strike": 4500,
+        "offset": 18,
+        "C": "ETH-25SEP26-4500-C",
+        "P": "ETH-25SEP26-4500-P"
+      },
+      {
+        "strike": 4600,
+        "offset": 19,
+        "C": "ETH-25SEP26-4600-C",
+        "P": "ETH-25SEP26-4600-P"
+      },
+      {
+        "strike": 4800,
+        "offset": 20,
+        "C": "ETH-25SEP26-4800-C",
+        "P": "ETH-25SEP26-4800-P"
+      }
+    ]
+  }
+}
