@@ -1,0 +1,533 @@
+{
+  "currency": "ETH",
+  "picked_at_utc": "2026-10-21T08:48:10+00:00",
+  "spot_index": 2455.21,
+  "weekly": {
+    "expiry": "23OCT26",
+    "expiry_ts_ms": 1792742400000,
+    "atm_strike": 2460,
+    "strike_spacing": 20,
+    "n_strikes_each_side": 15,
+    "strikes": [
+      2220,
+      2240,
+      2250,
+      2260,
+      2280,
+      2300,
+      2320,
+      2340,
+      2350,
+      2360,
+      2380,
+      2400,
+      2420,
+      2440,
+      2450,
+      2460,
+      2480,
+      2500,
+      2520,
+      2550,
+      2600,
+      2650,
+      2700,
+      2750,
+      2800,
+      2850,
+      2900,
+      3000,
+      3100,
+      3200,
+      3400
+    ],
+    "note": "weekly chain: 15 strikes each side",
+    "instruments": [
+      {
+        "strike": 2220,
+        "offset": -15,
+        "C": "ETH-23OCT26-2220-C",
+        "P": "ETH-23OCT26-2220-P"
+      },
+      {
+        "strike": 2240,
+        "offset": -14,
+        "C": "ETH-23OCT26-2240-C",
+        "P": "ETH-23OCT26-2240-P"
+      },
+      {
+        "strike": 2250,
+        "offset": -13,
+        "C": "ETH-23OCT26-2250-C",
+        "P": "ETH-23OCT26-2250-P"
+      },
+      {
+        "strike": 2260,
+        "offset": -12,
+        "C": "ETH-23OCT26-2260-C",
+        "P": "ETH-23OCT26-2260-P"
+      },
+      {
+        "strike": 2280,
+        "offset": -11,
+        "C": "ETH-23OCT26-2280-C",
+        "P": "ETH-23OCT26-2280-P"
+      },
+      {
+        "strike": 2300,
+        "offset": -10,
+        "C": "ETH-23OCT26-2300-C",
+        "P": "ETH-23OCT26-2300-P"
+      },
+      {
+        "strike": 2320,
+        "offset": -9,
+        "C": "ETH-23OCT26-2320-C",
+        "P": "ETH-23OCT26-2320-P"
+      },
+      {
+        "strike": 2340,
+        "offset": -8,
+        "C": "ETH-23OCT26-2340-C",
+        "P": "ETH-23OCT26-2340-P"
+      },
+      {
+        "strike": 2350,
+        "offset": -7,
+        "C": "ETH-23OCT26-2350-C",
+        "P": "ETH-23OCT26-2350-P"
+      },
+      {
+        "strike": 2360,
+        "offset": -6,
+        "C": "ETH-23OCT26-2360-C",
+        "P": "ETH-23OCT26-2360-P"
+      },
+      {
+        "strike": 2380,
+        "offset": -5,
+        "C": "ETH-23OCT26-2380-C",
+        "P": "ETH-23OCT26-2380-P"
+      },
+      {
+        "strike": 2400,
+        "offset": -4,
+        "C": "ETH-23OCT26-2400-C",
+        "P": "ETH-23OCT26-2400-P"
+      },
+      {
+        "strike": 2420,
+        "offset": -3,
+        "C": "ETH-23OCT26-2420-C",
+        "P": "ETH-23OCT26-2420-P"
+      },
+      {
+        "strike": 2440,
+        "offset": -2,
+        "C": "ETH-23OCT26-2440-C",
+        "P": "ETH-23OCT26-2440-P"
+      },
+      {
+        "strike": 2450,
+        "offset": -1,
+        "C": "ETH-23OCT26-2450-C",
+        "P": "ETH-23OCT26-2450-P"
+      },
+      {
+        "strike": 2460,
+        "offset": 0,
+        "C": "ETH-23OCT26-2460-C",
+        "P": "ETH-23OCT26-2460-P"
+      },
+      {
+        "strike": 2480,
+        "offset": 1,
+        "C": "ETH-23OCT26-2480-C",
+        "P": "ETH-23OCT26-2480-P"
+      },
+      {
+        "strike": 2500,
+        "offset": 2,
+        "C": "ETH-23OCT26-2500-C",
+        "P": "ETH-23OCT26-2500-P"
+      },
+      {
+        "strike": 2520,
+        "offset": 3,
+        "C": "ETH-23OCT26-2520-C",
+        "P": "ETH-23OCT26-2520-P"
+      },
+      {
+        "strike": 2550,
+        "offset": 4,
+        "C": "ETH-23OCT26-2550-C",
+        "P": "ETH-23OCT26-2550-P"
+      },
+      {
+        "strike": 2600,
+        "offset": 5,
+        "C": "ETH-23OCT26-2600-C",
+        "P": "ETH-23OCT26-2600-P"
+      },
+      {
+        "strike": 2650,
+        "offset": 6,
+        "C": "ETH-23OCT26-2650-C",
+        "P": "ETH-23OCT26-2650-P"
+      },
+      {
+        "strike": 2700,
+        "offset": 7,
+        "C": "ETH-23OCT26-2700-C",
+        "P": "ETH-23OCT26-2700-P"
+      },
+      {
+        "strike": 2750,
+        "offset": 8,
+        "C": "ETH-23OCT26-2750-C",
+        "P": "ETH-23OCT26-2750-P"
+      },
+      {
+        "strike": 2800,
+        "offset": 9,
+        "C": "ETH-23OCT26-2800-C",
+        "P": "ETH-23OCT26-2800-P"
+      },
+      {
+        "strike": 2850,
+        "offset": 10,
+        "C": "ETH-23OCT26-2850-C",
+        "P": "ETH-23OCT26-2850-P"
+      },
+      {
+        "strike": 2900,
+        "offset": 11,
+        "C": "ETH-23OCT26-2900-C",
+        "P": "ETH-23OCT26-2900-P"
+      },
+      {
+        "strike": 3000,
+        "offset": 12,
+        "C": "ETH-23OCT26-3000-C",
+        "P": "ETH-23OCT26-3000-P"
+      },
+      {
+        "strike": 3100,
+        "offset": 13,
+        "C": "ETH-23OCT26-3100-C",
+        "P": "ETH-23OCT26-3100-P"
+      },
+      {
+        "strike": 3200,
+        "offset": 14,
+        "C": "ETH-23OCT26-3200-C",
+        "P": "ETH-23OCT26-3200-P"
+      },
+      {
+        "strike": 3400,
+        "offset": 15,
+        "C": "ETH-23OCT26-3400-C",
+        "P": "ETH-23OCT26-3400-P"
+      }
+    ]
+  },
+  "monthly": {
+    "expiry": "30OCT26",
+    "expiry_ts_ms": 1793347200000,
+    "atm_strike": 2450,
+    "strike_spacing": 50,
+    "n_strikes_each_side": 20,
+    "strikes": [
+      1000,
+      1200,
+      1400,
+      1500,
+      1600,
+      1700,
+      1750,
+      1800,
+      1850,
+      1900,
+      1950,
+      2000,
+      2050,
+      2100,
+      2150,
+      2200,
+      2250,
+      2300,
+      2350,
+      2400,
+      2450,
+      2500,
+      2550,
+      2600,
+      2650,
+      2700,
+      2750,
+      2800,
+      2850,
+      2900,
+      2950,
+      3000,
+      3050,
+      3100,
+      3200,
+      3300,
+      3400,
+      3600,
+      3800,
+      4000,
+      4200
+    ],
+    "note": "",
+    "instruments": [
+      {
+        "strike": 1000,
+        "offset": -20,
+        "C": "ETH-30OCT26-1000-C",
+        "P": "ETH-30OCT26-1000-P"
+      },
+      {
+        "strike": 1200,
+        "offset": -19,
+        "C": "ETH-30OCT26-1200-C",
+        "P": "ETH-30OCT26-1200-P"
+      },
+      {
+        "strike": 1400,
+        "offset": -18,
+        "C": "ETH-30OCT26-1400-C",
+        "P": "ETH-30OCT26-1400-P"
+      },
+      {
+        "strike": 1500,
+        "offset": -17,
+        "C": "ETH-30OCT26-1500-C",
+        "P": "ETH-30OCT26-1500-P"
+      },
+      {
+        "strike": 1600,
+        "offset": -16,
+        "C": "ETH-30OCT26-1600-C",
+        "P": "ETH-30OCT26-1600-P"
+      },
+      {
+        "strike": 1700,
+        "offset": -15,
+        "C": "ETH-30OCT26-1700-C",
+        "P": "ETH-30OCT26-1700-P"
+      },
+      {
+        "strike": 1750,
+        "offset": -14,
+        "C": "ETH-30OCT26-1750-C",
+        "P": "ETH-30OCT26-1750-P"
+      },
+      {
+        "strike": 1800,
+        "offset": -13,
+        "C": "ETH-30OCT26-1800-C",
+        "P": "ETH-30OCT26-1800-P"
+      },
+      {
+        "strike": 1850,
+        "offset": -12,
+        "C": "ETH-30OCT26-1850-C",
+        "P": "ETH-30OCT26-1850-P"
+      },
+      {
+        "strike": 1900,
+        "offset": -11,
+        "C": "ETH-30OCT26-1900-C",
+        "P": "ETH-30OCT26-1900-P"
+      },
+      {
+        "strike": 1950,
+        "offset": -10,
+        "C": "ETH-30OCT26-1950-C",
+        "P": "ETH-30OCT26-1950-P"
+      },
+      {
+        "strike": 2000,
+        "offset": -9,
+        "C": "ETH-30OCT26-2000-C",
+        "P": "ETH-30OCT26-2000-P"
+      },
+      {
+        "strike": 2050,
+        "offset": -8,
+        "C": "ETH-30OCT26-2050-C",
+        "P": "ETH-30OCT26-2050-P"
+      },
+      {
+        "strike": 2100,
+        "offset": -7,
+        "C": "ETH-30OCT26-2100-C",
+        "P": "ETH-30OCT26-2100-P"
+      },
+      {
+        "strike": 2150,
+        "offset": -6,
+        "C": "ETH-30OCT26-2150-C",
+        "P": "ETH-30OCT26-2150-P"
+      },
+      {
+        "strike": 2200,
+        "offset": -5,
+        "C": "ETH-30OCT26-2200-C",
+        "P": "ETH-30OCT26-2200-P"
+      },
+      {
+        "strike": 2250,
+        "offset": -4,
+        "C": "ETH-30OCT26-2250-C",
+        "P": "ETH-30OCT26-2250-P"
+      },
+      {
+        "strike": 2300,
+        "offset": -3,
+        "C": "ETH-30OCT26-2300-C",
+        "P": "ETH-30OCT26-2300-P"
+      },
+      {
+        "strike": 2350,
+        "offset": -2,
+        "C": "ETH-30OCT26-2350-C",
+        "P": "ETH-30OCT26-2350-P"
+      },
+      {
+        "strike": 2400,
+        "offset": -1,
+        "C": "ETH-30OCT26-2400-C",
+        "P": "ETH-30OCT26-2400-P"
+      },
+      {
+        "strike": 2450,
+        "offset": 0,
+        "C": "ETH-30OCT26-2450-C",
+        "P": "ETH-30OCT26-2450-P"
+      },
+      {
+        "strike": 2500,
+        "offset": 1,
+        "C": "ETH-30OCT26-2500-C",
+        "P": "ETH-30OCT26-2500-P"
+      },
+      {
+        "strike": 2550,
+        "offset": 2,
+        "C": "ETH-30OCT26-2550-C",
+        "P": "ETH-30OCT26-2550-P"
+      },
+      {
+        "strike": 2600,
+        "offset": 3,
+        "C": "ETH-30OCT26-2600-C",
+        "P": "ETH-30OCT26-2600-P"
+      },
+      {
+        "strike": 2650,
+        "offset": 4,
+        "C": "ETH-30OCT26-2650-C",
+        "P": "ETH-30OCT26-2650-P"
+      },
+      {
+        "strike": 2700,
+        "offset": 5,
+        "C": "ETH-30OCT26-2700-C",
+        "P": "ETH-30OCT26-2700-P"
+      },
+      {
+        "strike": 2750,
+        "offset": 6,
+        "C": "ETH-30OCT26-2750-C",
+        "P": "ETH-30OCT26-2750-P"
+      },
+      {
+        "strike": 2800,
+        "offset": 7,
+        "C": "ETH-30OCT26-2800-C",
+        "P": "ETH-30OCT26-2800-P"
+      },
+      {
+        "strike": 2850,
+        "offset": 8,
+        "C": "ETH-30OCT26-2850-C",
+        "P": "ETH-30OCT26-2850-P"
+      },
+      {
+        "strike": 2900,
+        "offset": 9,
+        "C": "ETH-30OCT26-2900-C",
+        "P": "ETH-30OCT26-2900-P"
+      },
+      {
+        "strike": 2950,
+        "offset": 10,
+        "C": "ETH-30OCT26-2950-C",
+        "P": "ETH-30OCT26-2950-P"
+      },
+      {
+        "strike": 3000,
+        "offset": 11,
+        "C": "ETH-30OCT26-3000-C",
+        "P": "ETH-30OCT26-3000-P"
+      },
+      {
+        "strike": 3050,
+        "offset": 12,
+        "C": "ETH-30OCT26-3050-C",
+        "P": "ETH-30OCT26-3050-P"
+      },
+      {
+        "strike": 3100,
+        "offset": 13,
+        "C": "ETH-30OCT26-3100-C",
+        "P": "ETH-30OCT26-3100-P"
+      },
+      {
+        "strike": 3200,
+        "offset": 14,
+        "C": "ETH-30OCT26-3200-C",
+        "P": "ETH-30OCT26-3200-P"
+      },
+      {
+        "strike": 3300,
+        "offset": 15,
+        "C": "ETH-30OCT26-3300-C",
+        "P": "ETH-30OCT26-3300-P"
+      },
+      {
+        "strike": 3400,
+        "offset": 16,
+        "C": "ETH-30OCT26-3400-C",
+        "P": "ETH-30OCT26-3400-P"
+      },
+      {
+        "strike": 3600,
+        "offset": 17,
+        "C": "ETH-30OCT26-3600-C",
+        "P": "ETH-30OCT26-3600-P"
+      },
+      {
+        "strike": 3800,
+        "offset": 18,
+        "C": "ETH-30OCT26-3800-C",
+        "P": "ETH-30OCT26-3800-P"
+      },
+      {
+        "strike": 4000,
+        "offset": 19,
+        "C": "ETH-30OCT26-4000-C",
+        "P": "ETH-30OCT26-4000-P"
+      },
+      {
+        "strike": 4200,
+        "offset": 20,
+        "C": "ETH-30OCT26-4200-C",
+        "P": "ETH-30OCT26-4200-P"
+      }
+    ]
+  }
+}
