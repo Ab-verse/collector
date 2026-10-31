@@ -1,0 +1,239 @@
+{
+  "currency": "ETH",
+  "picked_at_utc": "2026-10-31T09:52:59+00:00",
+  "spot_index": 2242.03,
+  "weekly": {
+    "expiry": "6NOV26",
+    "expiry_ts_ms": 1793952000000,
+    "atm_strike": 2250,
+    "strike_spacing": 50,
+    "n_strikes_each_side": 7,
+    "strikes": [
+      1800,
+      1900,
+      2000,
+      2050,
+      2100,
+      2150,
+      2200,
+      2250,
+      2300,
+      2350,
+      2400,
+      2450,
+      2500,
+      2550,
+      2600
+    ],
+    "note": "weekly chain: 7 strikes each side",
+    "instruments": [
+      {
+        "strike": 1800,
+        "offset": -7,
+        "C": "ETH-6NOV26-1800-C",
+        "P": "ETH-6NOV26-1800-P"
+      },
+      {
+        "strike": 1900,
+        "offset": -6,
+        "C": "ETH-6NOV26-1900-C",
+        "P": "ETH-6NOV26-1900-P"
+      },
+      {
+        "strike": 2000,
+        "offset": -5,
+        "C": "ETH-6NOV26-2000-C",
+        "P": "ETH-6NOV26-2000-P"
+      },
+      {
+        "strike": 2050,
+        "offset": -4,
+        "C": "ETH-6NOV26-2050-C",
+        "P": "ETH-6NOV26-2050-P"
+      },
+      {
+        "strike": 2100,
+        "offset": -3,
+        "C": "ETH-6NOV26-2100-C",
+        "P": "ETH-6NOV26-2100-P"
+      },
+      {
+        "strike": 2150,
+        "offset": -2,
+        "C": "ETH-6NOV26-2150-C",
+        "P": "ETH-6NOV26-2150-P"
+      },
+      {
+        "strike": 2200,
+        "offset": -1,
+        "C": "ETH-6NOV26-2200-C",
+        "P": "ETH-6NOV26-2200-P"
+      },
+      {
+        "strike": 2250,
+        "offset": 0,
+        "C": "ETH-6NOV26-2250-C",
+        "P": "ETH-6NOV26-2250-P"
+      },
+      {
+        "strike": 2300,
+        "offset": 1,
+        "C": "ETH-6NOV26-2300-C",
+        "P": "ETH-6NOV26-2300-P"
+      },
+      {
+        "strike": 2350,
+        "offset": 2,
+        "C": "ETH-6NOV26-2350-C",
+        "P": "ETH-6NOV26-2350-P"
+      },
+      {
+        "strike": 2400,
+        "offset": 3,
+        "C": "ETH-6NOV26-2400-C",
+        "P": "ETH-6NOV26-2400-P"
+      },
+      {
+        "strike": 2450,
+        "offset": 4,
+        "C": "ETH-6NOV26-2450-C",
+        "P": "ETH-6NOV26-2450-P"
+      },
+      {
+        "strike": 2500,
+        "offset": 5,
+        "C": "ETH-6NOV26-2500-C",
+        "P": "ETH-6NOV26-2500-P"
+      },
+      {
+        "strike": 2550,
+        "offset": 6,
+        "C": "ETH-6NOV26-2550-C",
+        "P": "ETH-6NOV26-2550-P"
+      },
+      {
+        "strike": 2600,
+        "offset": 7,
+        "C": "ETH-6NOV26-2600-C",
+        "P": "ETH-6NOV26-2600-P"
+      }
+    ]
+  },
+  "monthly": {
+    "expiry": "27NOV26",
+    "expiry_ts_ms": 1795766400000,
+    "atm_strike": 2250,
+    "strike_spacing": 50,
+    "n_strikes_each_side": 7,
+    "strikes": [
+      1600,
+      1800,
+      1900,
+      2000,
+      2100,
+      2150,
+      2200,
+      2250,
+      2300,
+      2350,
+      2400,
+      2450,
+      2500,
+      2550,
+      2600
+    ],
+    "note": "WARN: monthly chain only has 7 strikes per side around ATM (wanted 20)",
+    "instruments": [
+      {
+        "strike": 1600,
+        "offset": -7,
+        "C": "ETH-27NOV26-1600-C",
+        "P": "ETH-27NOV26-1600-P"
+      },
+      {
+        "strike": 1800,
+        "offset": -6,
+        "C": "ETH-27NOV26-1800-C",
+        "P": "ETH-27NOV26-1800-P"
+      },
+      {
+        "strike": 1900,
+        "offset": -5,
+        "C": "ETH-27NOV26-1900-C",
+        "P": "ETH-27NOV26-1900-P"
+      },
+      {
+        "strike": 2000,
+        "offset": -4,
+        "C": "ETH-27NOV26-2000-C",
+        "P": "ETH-27NOV26-2000-P"
+      },
+      {
+        "strike": 2100,
+        "offset": -3,
+        "C": "ETH-27NOV26-2100-C",
+        "P": "ETH-27NOV26-2100-P"
+      },
+      {
+        "strike": 2150,
+        "offset": -2,
+        "C": "ETH-27NOV26-2150-C",
+        "P": "ETH-27NOV26-2150-P"
+      },
+      {
+        "strike": 2200,
+        "offset": -1,
+        "C": "ETH-27NOV26-2200-C",
+        "P": "ETH-27NOV26-2200-P"
+      },
+      {
+        "strike": 2250,
+        "offset": 0,
+        "C": "ETH-27NOV26-2250-C",
+        "P": "ETH-27NOV26-2250-P"
+      },
+      {
+        "strike": 2300,
+        "offset": 1,
+        "C": "ETH-27NOV26-2300-C",
+        "P": "ETH-27NOV26-2300-P"
+      },
+      {
+        "strike": 2350,
+        "offset": 2,
+        "C": "ETH-27NOV26-2350-C",
+        "P": "ETH-27NOV26-2350-P"
+      },
+      {
+        "strike": 2400,
+        "offset": 3,
+        "C": "ETH-27NOV26-2400-C",
+        "P": "ETH-27NOV26-2400-P"
+      },
+      {
+        "strike": 2450,
+        "offset": 4,
+        "C": "ETH-27NOV26-2450-C",
+        "P": "ETH-27NOV26-2450-P"
+      },
+      {
+        "strike": 2500,
+        "offset": 5,
+        "C": "ETH-27NOV26-2500-C",
+        "P": "ETH-27NOV26-2500-P"
+      },
+      {
+        "strike": 2550,
+        "offset": 6,
+        "C": "ETH-27NOV26-2550-C",
+        "P": "ETH-27NOV26-2550-P"
+      },
+      {
+        "strike": 2600,
+        "offset": 7,
+        "C": "ETH-27NOV26-2600-C",
+        "P": "ETH-27NOV26-2600-P"
+      }
+    ]
+  }
+}
